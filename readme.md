@@ -52,6 +52,7 @@ configtxlator proto_decode --type=common.Block \
 block height: 2
 
 ## after insert `1000` transaction, each transaction contains 100 characters
+```
 16K     ./production/ledgersData/configHistory
 16K     ./production/ledgersData/fileLock
 304K    ./production/ledgersData/chains/index
@@ -68,10 +69,11 @@ block height: 2
 3.7M    ./production
 3.7M    .
 
-block height: 108
+block height: `108`
+```
 
 ## after insert `2000` transaction, each transaction contains 100 characters
-
+```
 16K     ./production/ledgersData/configHistory
 16K     ./production/ledgersData/fileLock
 588K    ./production/ledgersData/chains/index
@@ -88,4 +90,5 @@ block height: 108
 7.1M    ./production
 7.1M    .
 
-block height: 209
+block height: `209`
+```
