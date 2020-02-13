@@ -33,6 +33,7 @@ configtxlator proto_decode --type=common.Block \
 ```
 
 ## start
+```
 16K     ./production/ledgersData/configHistory
 16K     ./production/ledgersData/fileLock
 20K     ./production/ledgersData/chains/index
@@ -50,6 +51,7 @@ configtxlator proto_decode --type=common.Block \
 200K    .
 
 block height: 2
+```
 
 ## after insert `1000` transaction, each transaction contains 100 characters
 ```
